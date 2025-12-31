@@ -1,0 +1,29 @@
+מושגי יסוד (Core Concepts)
+Grid / Board: לוח המשחק (בדרך כלל 6 שורות על 7 עמודות).
+Slot / Cell: משבצת בודדת בלוח.
+Column: עמודה (לתוכה השחקן מפיל את הדיסקית).
+Row: שורה.
+Disc / Token / Chip: הדיסקית או האסימון של השחקן.
+Player / Opponent: שחקן / יריב.
+לוגיקה ופעולות (Logic & Actions)
+Drop: הפעולה של הפלת דיסקית לתוך עמודה.
+Gravity: הלוגיקה שגורמת לדיסקית "ליפול" למקום הפנוי הנמוך ביותר.
+Valid Move: מהלך חוקי (בדיקה שהעמודה לא מלאה).
+Turn-based: משחק מבוסס תורות.
+Switch Turns: החלפת תור בין שחקנים.
+Check for Win: בדיקת תנאי ניצחון.
+כיווני בדיקה (Winning Directions)
+Horizontal: אופקי (שורה).
+Vertical: אנכי (עמודה).
+Diagonal: אלכסוני.
+Four in a row: ארבעה ברצף.
+מצבי משחק (Game States)
+Winner: מנצח.
+Draw / Tie: תיקו (כאשר הלוח מלא ללא מנצח).
+Game Over: סיום המשחק.
+Reset / Restart: איפוס המשחק מחדש.
+מושגים מתקדמים (AI & Development)
+Array / 2D Array: המבנה הנתונים לייצוג הלוח (מערך דו-ממדי).
+Minimax Algorithm: אלגוריתם נפוץ ליצירת בינה מלאכותית (AI) למשחק.
+Heuristic Score: ניקוד שניתן למצב לוח מסוים בחישוב המהלך הטוב ביותר.
+ניתן למצוא
